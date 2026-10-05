@@ -1,0 +1,24 @@
+{
+  "name": "dev-checks",
+  "version": "0.1.0",
+  "description": "Checks de salida mínima (tsc, eslint, prettier, tests, knip, dependency-cruiser, prisma, expo, syncpack) sobre los proyectos con cambios, pensados para agentes de IA",
+  "license": "UNLICENSED",
+  "bin": {
+    "dev-checks": "bin/cli.cjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "schema.json"
+  ],
+  "scripts": {
+    "test": "node --test \"test/*.test.cjs\""
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fortunecode-dev/dev-check.git"
+  }
+}
